@@ -22,7 +22,7 @@ cd <repo-name>
 Using g++ (recommended):
 
 ```bash
-g++ -o simulator main.cpp
+g++ -o CPU main.cpp
 ```
 3. ***Run the simulator:***
 You can run the simulator using the default input.txt file or specify your own:
