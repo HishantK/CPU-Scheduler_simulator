@@ -19,30 +19,32 @@ git clone <your-repo-url>
 cd <repo-name>
 How to Compile and Run
 Clone the repository:
+```
 
-Bash
+```Bash
 git clone <your-repo-url>
 cd <repo-name>
 Compile the code:
 Using g++ (recommended):
-
-Bash
+```
+```Bash
 g++ -o simulator main.cpp
 Run the simulator:
 You can run the simulator using the default input.txt file or specify your own:
-
-Bash
+```
+```Bash
 ./simulator          # Uses default input.txt
 ./simulator my_input.txt # Uses custom input file
-Input File Format
+```
+## Input File Format
 The simulator expects a plain text file with the following format:
 
 Plaintext
 TASK T1 BURST 35 MEM M1 M2 M3 ...
 TASK T2 BURST 10 MEM M1 M34 ...
-Project Structure
-main.cpp: Contains the scheduler engine, cache logic, and memory hierarchy.
+## Project Structure
+* main.cpp: Contains the scheduler engine, cache logic, and memory hierarchy.
 
-input.txt: The input data used for simulation testing.
+* input.txt: The input data used for simulation testing.
 
-README.md: This documentation file.
+* README.md: This documentation file.
