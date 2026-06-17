@@ -28,8 +28,7 @@ g++ -o simulator main.cpp
 You can run the simulator using the default input.txt file or specify your own:
 
 ```bash
-./simulator          # Uses default input.txt
-./simulator my_input.txt # Uses custom input file
+./CPU.cpp       
 ```
 ## Input File Format
 The simulator expects a plain text file with the following format:
