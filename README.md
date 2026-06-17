@@ -17,22 +17,17 @@ This project is a high-fidelity simulation of a CPU task scheduler and a multi-t
 ```bash
 git clone <your-repo-url>
 cd <repo-name>
-How to Compile and Run
-Clone the repository:
 ```
-
-```Bash
-git clone <your-repo-url>
-cd <repo-name>
-Compile the code:
+2. **Compile the code:**
 Using g++ (recommended):
-```
-```Bash
+
+```bash
 g++ -o simulator main.cpp
-Run the simulator:
-You can run the simulator using the default input.txt file or specify your own:
 ```
-```Bash
+3. ***Run the simulator:***
+You can run the simulator using the default input.txt file or specify your own:
+
+```bash
 ./simulator          # Uses default input.txt
 ./simulator my_input.txt # Uses custom input file
 ```
